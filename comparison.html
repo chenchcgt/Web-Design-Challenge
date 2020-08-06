@@ -12,33 +12,33 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Latitude</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <a id="titlecolor" class="navbar-brand" href="#">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a id="xcolor1" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Plots
                 </a>
             <div class="dropdown-menu" aria-labelledby="Plots">
-                <a class="dropdown-item" href="Subpage1.html">Max Temperature</a>
-                <a class="dropdown-item" href="#">Humidity</a>
-                <a class="dropdown-item" href="#">Cloudines</a>
-                <a class="dropdown-item" href="#">Wind Speed</a>
+                <a class="dropdown-item" href="Subtemp.html">Max Temperature</a>
+                <a class="dropdown-item" href="Subthumidity.html">Humidity</a>
+                <a class="dropdown-item" href="Subcloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="Subwind.html">Wind Speed</a>
               </div>
             <li class="nav-item">
-              <a class="nav-link" href="comparison.html">Comparison</a>
+              <a id="xcolor3" class="nav-link" href="comparison.html">Comparison</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="cities_file_bootstrap.html">Data</a>
+              <a id="xcolor4" class="nav-link" href="cities_file_bootstrap.html">Data</a>
             </li>
-            </li>
+            <!-- </li> -->
           </ul>
         </div>
       </nav>
@@ -51,7 +51,7 @@
         <div class="container">
             <div class="row"> 
           ​     <div class="col-md-12">
-                    <h1 class="title1">Comparison: Latitude vs X</h1>
+                    <h1 id="title1">Comparison: Latitude vs X</h1>
                     <hr>
                 </div>
             </div>    
@@ -59,14 +59,14 @@
             <div class="row"> 
                 <div class="col-md-6">
                     <h4>vs. Max Temperature</h4>
-                    <a target="_blank" href="Subpage1.html">
+                    <a target="_blank" href="Subtemp.html">
                         <img src="Resources/assets/images/Fig1.png" alt="City Latitude vs. Temperature">
                       
                     </a>
                 </div>
                 <div class="col-md-6">
                     <h4>vs. Humidity</h4>
-                   <a target="_blank" href="Resources/assets/images/Fig2.png">
+                   <a target="_blank" href="Subthumidity.html">
                         <img src="Resources/assets/images/Fig2.png" alt="City Latitude vs. Humidity">
                  
                     </a>
@@ -77,8 +77,8 @@
                 <div class="col-md-6">
                     <p></p>
                     <p></p>
-                    <h4>vs. Coudiness</h4>                          
-                    <a target="_blank" href="Resources/assets/images/Fig3.png">
+                    <h4>vs. Cloudiness</h4>                          
+                    <a target="_blank" href="Subcloudiness.html">
                         <img src="Resources/assets/images/Fig3.png" alt="City Latitude vs. Coudiness">
                     </a>
                 </div>
@@ -86,7 +86,7 @@
                     <p></p>
                     <p></p>
                     <h4>vs. Wind Speed</h4>
-                    <a target="_blank" href="Resources/assets/images/Fig4.png">
+                    <a target="_blank" href="Subwind.html">
                         <img src="Resources/assets/images/Fig4.png" alt="City Latitude vs. Wind Speed">
                     </a>
                 </div>
