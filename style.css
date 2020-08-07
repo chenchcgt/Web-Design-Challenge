@@ -75,8 +75,6 @@ text-align: justify;
 background-color: white;
 width: 100%;
 height: auto;
-/* border: 5px dashed #f7a239; */
-/* background: #f1f1f1; */
 
 }
 
@@ -92,11 +90,13 @@ img {
 }
 
 .col-md-6.wide_image {
-    padding: 0px;
+    padding: 2px;
 
 }
 
-
+#xframe.col-md-6.wide_image {
+    background-color: turquoise;
+}
 
 p {
 margin-right: 40px;
